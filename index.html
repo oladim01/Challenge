@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  
+  <!-- <link href="https://fonts.googleapis.com/css?family=Big+Shoulders+Display">
+
+  <link href="https://fonts.googleapis.com/css?family=Lexend+Deca"> -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | 3-column preview card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+   
+    @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&family=Lexend+Deca:wght@300;400&display=swap');
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+    body{
+      margin-top: 50px;
+      padding: 50px;
+      margin-left: 250px;
+      background-color:  hsl(0, 0%, 95%);
+      color: white;
+      font-family: 'Lexend Deca', sans-serif;
+    }
+    
+    .Sedan{
+
+      background-color: hsl(31, 77%, 52%) ;
+      display: inline-block;
+      width: 200px;
+      height: 400px;
+      border-top-left-radius: 10px;
+      border-bottom-left-radius: 10px;
+      padding: 30px;
+
+      
+
+    }
+    .suv{
+
+      background-color:hsl(184, 100%, 22%);
+      display: inline-block;
+      width: 200px;
+      height: 400px;
+      padding: 30px;
+     
+
+      
+    }    
+    .lux{
+
+      background-color:hsl(179, 100%, 13%) ;
+      display: inline-block;
+      width: 200px;
+      height: 400px;
+      border-top-right-radius: 10px;
+      border-bottom-right-radius: 10px;
+      padding: 30px;
+
+
+    }
+
+    .learn{
+      margin-top: 100px;
+      color: white;
+      border: 2px solid white;
+      text-align: center;
+      border-radius: 30px;
+      width: fit-content;
+      padding: 10px;
+    }
+    h1{
+      font-family: 'Big Shoulders Display', cursive;
+      font-weight: 400;
+      
+      
+      
+    }
+  </style>
+</head>
+<body>
+  <div class="main">
+    
+    <div class="Sedan">
+      <img src="images/icon-sedans.svg" alt="">
+     <h1 > SEDANS</h1>
+      Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city 
+      or on your next road trip.
+      
+      <div class="learn">Learn More</div>
+    </div><div class="suv">
+      <img src="images/icon-suvs.svg" alt="">
+
+      <h1> SUVS</h1>
+
+      Take an SUV for its spacious interior, power, and versatility. Perfect for your next family vacation 
+      and off-road adventures.
+      <div class="learn">Learn More</div>
+
+    </div><div class="lux">
+      <img src="images/icon-luxury.svg" alt="">
+      
+      <h1> LUXURY</h1>
+    
+    Cruise in the best car brands without the bloated prices. Enjoy the enhanced comfort of a luxury 
+    rental and arrive in style.
+    <div class="learn">Learn More</div>
+
+    </div>
+  
+  </div>
+
+
+</body>
+</html>
